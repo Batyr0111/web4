@@ -54,11 +54,8 @@ $config = [
             'showScriptName' => false,
             'rules' => [
                 'class' => 'yii\rest\UrlRule',
-                'controller' => 'user',
+                'controller' => 'teacher',
                 'except' => ['delete'],
-            '' => 'site/index',
-            'login' => 'site/login',
-            'logout' => 'site/logout',
             ],
             ],
         'db' => $db,
